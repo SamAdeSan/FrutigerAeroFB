@@ -453,3 +453,49 @@ footer ul {
 footer ul li {
     display: block;
 }
+
+/*Responsive*/
+/* Móviles (pantallas pequeñas) */
+@media (max-width: 600px) {
+    .menu-bar ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu-bar ul li a {
+        padding: 10px;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    header h1 img {
+        width: 60px;
+        margin: 0 10px;
+    }
+
+    iframe {
+        height: 300px;
+    }
+
+    #cuerpoTexto div {
+        column-count: 1;
+    }
+
+    form label,
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    form input[type="submit"] {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    footer div {
+        padding: 22px;
+    }
+}
